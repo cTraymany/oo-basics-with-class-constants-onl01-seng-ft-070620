@@ -11,7 +11,6 @@ class Shoe
 
   def brand=(brand)
     @brand = brand
-    BRANDS.length = 0
     if brand == "unique"
       BRANDS << brand
     end
